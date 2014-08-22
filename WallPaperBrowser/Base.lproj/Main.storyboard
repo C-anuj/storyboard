@@ -61,7 +61,7 @@
         <!--Paper View Controller-->
         <scene sceneID="cUt-LK-Rj6">
             <objects>
-                <viewController id="Y64-N9-deZ" customClass="PaperViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaperViewController" id="Y64-N9-deZ" customClass="PaperViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="is8-QR-7nU"/>
                         <viewControllerLayoutGuide type="bottom" id="tyF-FL-5n8"/>

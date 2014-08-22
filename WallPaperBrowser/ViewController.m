@@ -24,7 +24,11 @@
 }
 
 - (IBAction)gotapper:(id)sender {
-    [self performSegueWithIdentifier:@"GoToPaper" sender:self];
+//    [self performSegueWithIdentifier:@"GoToPaper" sender:self];
+    PaperViewController *paperViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PaperViewController"];
+    paperViewController.monthToShow = self.sliderLabel.text.intValue;
+    [self presentModalViewController:paperViewController animated:YES];
+    
 }
 
 - (IBAction)close:(UIStoryboardSegue*)segue {
